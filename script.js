@@ -70,6 +70,21 @@ $('div#timeline_container').on('click','li', function(){
 	showNext($(this));
 });
 
+function search_animal() { 
+    let input = document.getElementById('searchbar').value 
+    input=input.toLowerCase(); 
+    let x = document.getElementsByClassName('event_date'); 
+      
+    for (i = 0; i < x.length; i++) {  
+        if (!x[i].innerHTML.toLowerCase().includes(input)) { 
+            x[i].style.display="none"; 
+        } 
+        else { 
+            x[i].style.display="list-item";                  
+        } 
+    } 
+} 
+
 function showNext(li){
 	var $itms=$('div#timeline_container li');
 	$itms.removeClass('active');
