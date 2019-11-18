@@ -2,6 +2,7 @@
 .topnav {
   background-color: #333;
   overflow: hidden;
+ 
 }
 
 /* Style the links inside the navigation bar */
@@ -25,14 +26,16 @@
   background-color: #4CAF50;
   color: white;
 }
-
- body > header {
+body {
+	
+	background-image: url('image10.jpg');
+}
+body > header {
 	width:100%;
 	position:fixed;
 	z-index:30;
 	background:#E0DCD9;
-	border-bottom:1px solid #d5d1cf;
-	box-shadow:0 1px 1px white;
+	
 	top:0;
 	left:0;
 }
