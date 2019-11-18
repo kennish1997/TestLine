@@ -27,7 +27,7 @@
 }
 body {
 	
-	background-image: url('image10.jpg');
+	background-image: url('../images/image10.jpg');
 }
 body > header {
 	width:100%;
