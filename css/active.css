@@ -1,3 +1,4 @@
+ /*Sets the background*/
  html::after {
      content: "";
      background-image: url('../images/image10.jpg');
@@ -11,7 +12,23 @@
      z-index: -1;
 	 
 }
+/*Embeded video properties*/
+iframe{
+	
+	display:block;
+	margin: 0 auto;
 
+}
+/*Adjusts the class intro linked to paragraph*/
+p.intro{
+     font-size:35px;
+     text-align:center;
+     text-shadow: 3px 2px red;
+     font-weight: bold;
+     color:#adffff;
+
+}
+/*Video file properties*/
 video{
 	display: block;
 	margin: 0 auto;

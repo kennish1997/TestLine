@@ -39,10 +39,10 @@
   background-color: #4CAF50;
   color: white;
 }
-
+/*Icon sizes and adjustments */
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: 'fontello';
+ 
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -87,7 +87,7 @@ body {
 }
 body > header {
 	width:100%;
-	position:relative;
+	position:fixed;
 	z-index:30;
 	top:0;
 	left:0;

@@ -1,3 +1,4 @@
+ /*Sets the background*/
  html::after {
      content: "";
      background-image: url('../images/image10.jpg');
