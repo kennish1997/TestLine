@@ -11,15 +11,38 @@
      z-index: -1;
 	 
 }
+div.transbox {
+  margin: 75px;
+  background-color: #ffffff;
+  display:block;
 
-video{
-	display: block;
-	margin: 0 auto;
+ 
+}
+div.transbox h {
+	margin: 1%;
+	font-weight: bold;
+	font-size: 30px;
+	color:#000000;
+	
+
+}
+div.transbox img{
+
+	width:450px;
+	height:300px;
+	float:right;
+}
+
+div.transbox p {
+	
+  font-weight: bold;
+  font-size:20px;
+  color: #000000;
+  
 }
 .topnav {
   background-color: #333;
   overflow: hidden;
- 
 }
 
 /* Style the links inside the navigation bar */
@@ -43,7 +66,6 @@ video{
   background-color: #4CAF50;
   color: white;
 }
-
 body > header {
 	width:100%;
 	position:relative;

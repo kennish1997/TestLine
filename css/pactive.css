@@ -11,15 +11,19 @@
      z-index: -1;
 	 
 }
-
-video{
-	display: block;
-	margin: 0 auto;
+.img {
+    position: relative;
+    float: left;
+    width:  300px;
+    height: 300px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
 }
+
 .topnav {
   background-color: #333;
   overflow: hidden;
- 
 }
 
 /* Style the links inside the navigation bar */
@@ -43,7 +47,6 @@ video{
   background-color: #4CAF50;
   color: white;
 }
-
 body > header {
 	width:100%;
 	position:relative;
