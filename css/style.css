@@ -1,4 +1,4 @@
-
+/*Sets the background*/
  html::after {
      content: "";
      background-image: url('../images/image10.jpg');
@@ -99,6 +99,7 @@ body > header nav {
 	overflow:hidden;
 	
 }
+/*Categories properties*/
 body > header nav ul {
 	margin:0 0 0 -65px;
 	padding:0;
@@ -116,6 +117,7 @@ body > header nav li {
 	padding:1.2em;
 	font-size:18px;
 }
+/*hovering the category*/
 body > header nav li:hover {
 	background:#d5d1cf;
 }
@@ -124,24 +126,28 @@ body > header nav li:first-child {
 	box-shadow:-1px 0px 1px #E0DCD9;
 	text-shadow:1px 1px 1px #fff;
 }
+/*when the category is clicked on*/
 body > header nav li:active,body > header nav li.active {
 	color:white;
 }
 body > header nav li.all:active,body > header nav li.all.active {
 	text-shadow:1px 1px 1px #444;
 }
+/*Category 1*/
 body > header nav li.icon-address:active,body > header nav li.icon-address.active {
 	background:#0ED1E7;
 	border-left:1px solid #0cb4c6;
 	border-top:1px solid #0cb4c6;
 	box-shadow:none;
 }
+/*Category 2*/
 body > header nav li.icon-graduation-cap:active,body > header nav li.icon-graduation-cap.active {
 	background:#EB2690;
 	border-left:1px solid #bf1f75;
 	border-top:1px solid #bf1f75;
 	box-shadow:none;
 }
+/*Category 3*/
 body > header nav li.icon-briefcase:active,body > header nav li.icon-briefcase.active {
 	background:#E76B0E;
 	border-left:1px solid #B85307;
@@ -154,6 +160,7 @@ body > header nav li.icon-star-1:active,body > header nav li.icon-star-1.active 
 	border-top:1px solid #333;
 	box-shadow:none;
 }
+/*Category 4*/
 body > header nav li.icon-user:active,body > header nav li.icon-user.active {
 	background:#454545;
 	border-left:1px solid #333;
@@ -184,9 +191,11 @@ div#timeline_container header figure {
 	display:block;
 	margin:0 auto;
 }
+/*Top image*/
 div#timeline_container header figure img {
 	height:100%;       		
 }
+/*Font*/
 div#timeline_container header h1 {
 	position:absolute;
 	top:20px;
@@ -249,7 +258,7 @@ div#timeline_container > ul li > div.event_icn {
 	-o-transition:all 0.3s ease-in-out;
 	transition:all 0.3s ease-in-out;
 }
-
+/*Different categories (personal,film, collaboration, activism) with icon and color */
 div#timeline_container > ul > li:hover div.event_icn,div#timeline_container > ul li.active div.event_icn{color:white;}
 
 div#timeline_container > ul > li.personal_event div.event_icn { background:#bde3e7;}
@@ -369,7 +378,7 @@ div#timeline_container > ul > li:nth-child(even) div.event_date {text-align:left
 div#timeline_container > ul > li:hover div.event_date,div#timeline_container > ul li.active div.event_date {opacity:0.9;}
 div#timeline_container > ul > li:nth-child(odd) div.event_date {right:60px;}
 div#timeline_container > ul > li:nth-child(even) div.event_date {left:60px;}
-
+/*Container that tells you to press J or K */
 div#instructions_container {
 	position:fixed;
 	padding:2em;
