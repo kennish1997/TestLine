@@ -15,6 +15,7 @@
 }
 /*Limits the size of the pictures and position them next to each other*/
 .img {
+    padding-left: 15.7px; 
     position: relative;
     float: left;
     width:  300px;
